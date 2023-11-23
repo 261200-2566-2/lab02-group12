@@ -1,19 +1,23 @@
 AirPurifier
 1.give a complete description of AirPurifier class
     what should be instance variables?
-        Ans :
+        Ans :   power(boolean),year(string),serialNum(string),pMValue(int),model(int)
     what should be instance methods?
-        Ans :
+        Ans :   on,off
     what should be class variables?
-        Ans :
+        Ans :   modelsVolume[](int),allVolume(int)
     what should be class methods?
-        Ans :
+        Ans :   mostSelModel
 2.for each method proposed above, how do you plan to implement it?
     give an overview of the computation
         what's needed as inputs?
-            Ans :
+            Ans :   on -> power,
+                    off -> power,
+                    mostSelModel -> modelsVolume[](each model sale)
         what's to be returned?
-            Ans :
+            Ans :   on return noting (void)
+                    off return noting (void)
+                    mostSelModel return the model that has the most sale (int)
 3.implement all instance variables and methods of AirPurifier class so they work correctly
 4.construct AirPurifier object(s) and demonstrate that your implementation works correctly
     write class Lab02 containing main method
