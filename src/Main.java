@@ -1,17 +1,26 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
+        AirPurifier A1=new AirPurifier("DQWEQD45");  //construc set year 2005 model 2
+        AirPurifier.manufacDisplay();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        //make Air by loop = amount
+        int  amount = 7;
+        AirPurifier[] B = new AirPurifier[amount];
+        for (int i =0;i< B.length;i++){
+            Random random = new Random();
+            B[i] = new AirPurifier(random.nextInt(3),"2004","DQWEQD45"+i);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+            System.out.println("DQWEQD45"+i+" Have been created!!");
+            B[i].displayPrint();
         }
+
+        //show all the products and detail each model and most popular
+        AirPurifier.manufacDisplay();
+        //show Air_A1 On and Off
+        A1.On();  //show PM and detail Airpurify
+        A1.displayPrint();
+        A1.Off();
+        A1.displayPrint();
     }
 }
