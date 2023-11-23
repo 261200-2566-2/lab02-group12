@@ -1,0 +1,22 @@
+AirPurifier
+1.give a complete description of AirPurifier class
+    what should be instance variables?
+        Ans :
+    what should be instance methods?
+        Ans :
+    what should be class variables?
+        Ans :
+    what should be class methods?
+        Ans :
+2.for each method proposed above, how do you plan to implement it?
+    give an overview of the computation
+        what's needed as inputs?
+            Ans :
+        what's to be returned?
+            Ans :
+3.implement all instance variables and methods of AirPurifier class so they work correctly
+4.construct AirPurifier object(s) and demonstrate that your implementation works correctly
+    write class Lab02 containing main method
+challenges:
+5.implement class variables and methods of AirPurifier class so they work correctly
+    be sure demonstrate correctness
